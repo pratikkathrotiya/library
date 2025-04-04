@@ -29,17 +29,17 @@ cd attendance-list-app
 # Install Dependencies
 
 Make sure you have `node` and `npm` installed.
-
+```bash
 npm install
-
+```
 ---
 
 # Start the App Locally
 
 This runs the app in development mode.
-
+```bash
 npm start
-
+```
 Then open your browser at:
 
 http://localhost:3000
@@ -47,9 +47,9 @@ http://localhost:3000
 # View Storybook (Component Visual Playground)
 
 To view the interactive Storybook documentation:
-
+```bash
 npm run storybook
-
+```
 Then open your browser at:
 http://localhost:6006
 
@@ -64,9 +64,9 @@ Here, you can see:
 # Run Tests
 
 To run unit tests using Jest and React Testing Library:
-
+```bash
 npm test
-
+```
 This checks:
 - Correct rendering
 - Search functionality
